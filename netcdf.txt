@@ -1,0 +1,36 @@
+variables: temperature; can be represented as a 5x5x3 array, with constant values for each day
+dimensions: time, latitude, longitude; time indicates when the measurement happened; we can encode the dates as 2022-09-01, 2022-09-02, and 2022-09-03.
+the pairs of latitude and longitude values indicate the positions of the weather stations
+- latitude has values 30,40,50,60, and 70, measured in degrees North
+- longitude has values 60,70,80,90, and 100, measured in degrees East
+
+How will adding the average temp data change the dataset variables, attributes, and dimensions?
+time dimension would change (shorten); variables: new variable added to temperature 
+temperature data stasy the same; we can represent theh average temperature as a single 5x5 array with value 1 at each cell. 
+
+dimensions
+the complete dataset still has three dimensions: time, latitude, and longitude
+temp variable uses all three dimensions, and the average temperature variable only uses two. it's ok if a variable does not incorporate all dimensions in the dataset. 
+
+attributes: keep all previous attributes and add the attributes for our new average temp variable
+
+
+what are coordinates?
+
+variables: n-dimensional arrays of numbers; we measure temp
+dimensions: describe the axes of the arrays ; with respect to what are we measuring the variable? constant/fixed/independent quantities at which we measure the variables
+
+coordinates: each dimension has a set of coordinates; coordinates indicate the dimensions values; at which points in this dimension are we measuring the variable? we measure the temperature variable at 60,70,10, degrees along the longitude dimension
+coordinates depend on dimensions; coordinates are coordinates of specific dimension
+
+indexing in 2 dimensional numpy.arrays starts at the top-left corner of the array, and it is done by rows first and columns second.
+- 1st dimension = time
+
+- 2nd dimension = latitude
+
+- 3rd dimenion = longitude
+
+the coordinates (values of each dimension) are:
+time coordinates
+latitude coordinates
+longitude coordinates 
