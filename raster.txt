@@ -1,0 +1,13 @@
+raster data
+numerical, categorical
+the spatial extent or spatial coverage is the geographic area that it covers
+the spatial resolution is the size of the area on the surface that each pixel covers. 
+
+bands: a raster can contain one or more nads
+one type of multi-band raster dataset that is familiar to many of us is a color image 
+
+geotiff
+- file format .tif extension
+- georeferenced tagged image file format
+- tiff file (image/rasters)+ geospatial information
+- industry stanard for satellite or aerial photography imagery
